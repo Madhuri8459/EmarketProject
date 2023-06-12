@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,399 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+nav {
+  background-color: #f8f8f8;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+#p1{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    height: 35px;
+    width: 35px;
+}
+#p2{
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    
+}
+#p3{
+    position: absolute;
+    top: 65px;
+    left:1605px;
+    height: 35px;
+    width: 35px;
+}
+#p4{
+    position: absolute;
+    top: 65px;
+    left:1725px;
+    height: 35px;
+    width: 35px;
+}
+#p5{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    
+}
+#p6{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    
+}
+#p7{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    
+}
+#p8{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    
+}
+#p9{
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    
+}
+#p40{
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    
+}
+#p11{
+    position: absolute;
+    top: 1px;
+    left: 200px;
+    
+}
+#p12{
+    position: absolute;
+    top: 1px;
+    left: 800px;
+    
+}
+#p13{
+    position: absolute;
+    top: 1px;
+    left: 1400px;
+    
+}
+#p14{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+#p15{
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    height: 600px;
+    width: 900px;
+    
+}
+#p16{
+  position: absolute;
+  top:1000px;
+  left:400px;
+  font-weight: bold;
+  font-size: 60px;
+}
+#p17{
+  position:absolute;
+  top:1100px;
+  left:650px;
+  font-size: larger;
+}
+#p18{
+  position:absolute;
+  top:1150px;
+  left:720px;
+  font-size: larger;
+} 
+ #p19{
+  position: absolute;
+  top:1250px;
+  left:100px;
+  font-size: larger;
+  font-weight: bold;
+}
+ #p20{
+  position: absolute;
+  top:1250px;
+  left:1500px;
+  font-weight: bold;
+  color: blueviolet;
+ }
+ #p21{
+  position: absolute;
+  top:1650px;
+  left:100px;
+  font-size: larger;
+  font-weight: bold;
+ }
+ #p22{
+  position: absolute;
+  top:1650px;
+  left:1650px;
+  font-weight: bold;
+  color: blueviolet;
+ }
+ .image{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    /* height: 20px; */
+    width: 75px;
+}
+.cart4{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    height: 70px;
+    width: 50px;
+}
+.para{
+    position: absolute;
+    top: 70px;
+    left:1765px;
+    height: 45px;
+    width: 35px;
+}
+#p10{
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    
+}
+.person{
+    position: absolute;
+    top: 65px;
+    left:1605px;
+    height: 35px;
+    width: 35px;
+}
+.cart2{
+    position: absolute;
+    top: 65px;
+    left:1725px;
+    height: 35px;
+    width: 35px;
+}
+#p23{
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    
+}
+#p24{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    
+}
+#p25{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    
+}
+#p26{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    
+}
+#b1{
+  position: absolute;
+  top: 5px;
+  left:1500px
+
+}
+#b2{
+  position: absolute;
+  top: 5px;
+  left:1700px
+  
+}
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+#b8{
+  position:absolute;
+  top: 2500px;
+  left: 200px;
+  font-weight: bold;
+ }
+#b9{
+  position: absolute;
+  top: 2530px;
+  left:100px;
+}
+#b10{
+  position:absolute;
+  top: 2500px;
+  left: 600px;
+  font-weight: bold;
+ }
+#b11{
+  position: absolute;
+  top: 2530px;
+  left:550px;
+}
+#b12{
+  position:absolute;
+  top: 2500px;
+  left: 1050px;
+  font-weight: bold;
+ }
+#b13{
+  position: absolute;
+  top: 2530px;
+  left:1000px;
+}
+#b14{
+  position:absolute;
+  top: 2500px;
+  left: 1520px;
+  font-weight: bold;
+ }
+#b15{
+  position: absolute;
+  top: 2530px;
+  left:1500px;
+}
+#b16{
+  position: absolute;
+  top:2400px;
+  left:220px;
+}
+#b17{
+  position: absolute;
+  top:2390px;
+  left:640px;
+}
+#b18{
+  position: absolute;
+  top:2390px;
+  left:1070px;
+}
+#b19{
+  position: absolute;
+  top:2390px;
+  left:1500px;
+}
+#m1{
+  position: absolute;
+  top: 1300px;
+  left:100px;
+  height: 300px;
+  width: 300px;
+}
+#m2{
+  position: absolute;
+  top: 1300px;
+  left:500px;
+  height: 300px;
+  width: 300px;
+  
+}
+#m3{
+  position: absolute;
+  top: 1300px;
+  left:850px;
+  height: 300px;
+  width: 300px;
+  }
+  #m4{
+  position: absolute;
+  top: 1300px;
+  left:1230px;
+  height: 300px;
+  width: 300px;
+  }
+  #m5{
+  position: absolute;
+  top: 1300px;
+  left:1600px;
+  height: 300px;
+  width: 300px;
+  }
+  #m6{
+  position: absolute;
+  top: 1700px;
+  left:150px;
+  height: 400px;
+  width: 400px;
+  }
+  #m7{       position: absolute; top: 1700px; left:600px; height: 400px; width: 400px; }
+
+  #m8{       position: absolute; top: 1700px; left:1050px; height: 400px; width: 400px; }
+
+  #m9{       position: absolute; top: 1700px; left:1500px; height: 400px; width: 400px; }
+
+  #n1{       position: absolute; top: 2120px; left:150px;  }
+  #n2{       position: absolute; top: 2150px; left:150px;  }
+  #n3{       position: absolute; top: 2190px; left:150px;  }
+  #n4{       position: absolute; top: 2120px; left:600px;  }
+  #n5{       position: absolute; top: 2150px; left:600px;  }
+  #n6{       position: absolute; top: 2190px; left:600px;  }
+
+  #n7{       position: absolute; top: 2120px; left:1050px;  }
+  #n8{       position: absolute; top: 2150px; left:1050px;  }
+  #n9{       position: absolute; top: 2190px; left:1050px;  }
+  #n10{       position: absolute; top: 2120px; left:1500px;  }
+  #n11{     position: absolute; top: 2150px; left:1500px;  }
+ #n12{     position: absolute; top: 2190px; left:1500px;  }
+ #b101{position: absolute; top: 1200px;height: 50px;width: 400px; left: 700px; border-radius: 15px; }
+ #I101{ position: absolute;top: 1550px;left: 150px;color:white;font-weight: bold;}
+ #I102{ position: absolute;top: 1550px;left: 550px;color:rgb(250, 247, 247);font-weight: bold;}
+ #I103{ position: absolute;top: 1550px;left: 950px;color:rgb(245, 243, 243);font-weight: bold;}
+ #I104{ position: absolute;top: 1550px;left: 1250px;color:white;font-weight: bold;}
+ #I105{ position: absolute;top: 1550px;left: 1630px;color:white;font-weight: bold;}
+
+
+

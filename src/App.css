@@ -1,38 +1,245 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #f8f8f8;
+  height: 60px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+#p1{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    height: 35px;
+    width: 35px;
+}
+#p2{
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    
+}
+#p3{
+    position: absolute;
+    top: 65px;
+    left:1605px;
+    height: 35px;
+    width: 35px;
+}
+#p4{
+    position: absolute;
+    top: 65px;
+    left:1725px;
+    height: 35px;
+    width: 35px;
+}
+#p5{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    
+}
+#p6{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    
+}
+#p7{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    
+}
+#p8{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    
+}
+#p9{
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    
+}
+#p40{
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    
+}
+#p11{
+    position: absolute;
+    top: 1px;
+    left: 200px;
+    
+}
+#p12{
+    position: absolute;
+    top: 1px;
+    left: 800px;
+    
+}
+#p13{
+    position: absolute;
+    top: 1px;
+    left: 1400px;
+    
+}
+#p14{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+#p15{
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    height: 600px;
+    width: 900px;
+    
+}
+#p16{
+  position: absolute;
+  top:1000px;
+  left:400px;
+  font-weight: bold;
+  font-size: 60px;
+}
+#p17{
+  position:absolute;
+  top:1100px;
+  left:650px;
+  font-size: larger;
+}
+#p18{
+  position:absolute;
+  top:1150px;
+  left:720px;
+  font-size: larger;
+} 
+ #p19{
+  position: absolute;
+  top:1250px;
+  left:100px;
+  font-size: larger;
+  font-weight: bold;
+}
+ #p20{
+  position: absolute;
+  top:1250px;
+  left:1500px;
+  font-weight: bold;
+  color: blueviolet;
+ }
+ #p21{
+  position: absolute;
+  top:1350px;
+  left:100px;
+  font-size: larger;
+  font-weight: bold;
+ }
+ #p22{
+  position: absolute;
+  top:1350px;
+  left:1500px;
+  font-weight: bold;
+  color: blueviolet;
+ }
+ .image{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    /* height: 20px; */
+    width: 10px;
+}
+.cart4{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    height: 70px;
+    width: 50px;
+}
+.para{
+    position: absolute;
+    top: 70px;
+    left:1765px;
+    height: 45px;
+    width: 35px;
+}
+#p10{
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    
+}
+.person{
+    position: absolute;
+    top: 65px;
+    left:1605px;
+    height: 35px;
+    width: 35px;
+}
+.cart2{
+    position: absolute;
+    top: 65px;
+    left:1725px;
+    height: 35px;
+    width: 35px;
+}
+#p23{
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    
+}
+#p24{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    
+}
+#p25{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    
+}
+#p26{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    
 }
