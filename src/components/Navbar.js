@@ -60,28 +60,29 @@ function Navbar() {
 </nav>
 <br/>
 <br/>
+<hr></hr>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#"></a>
-          <a id="p11" class="nav-link" href="#">  Download the app      </a>
-          <h4 id="p8">      Get an exclusive $5 off code </h4>
-          <a id="p12" class="nav-link" href="#">Return when you are ready</a>
-          <br/>
-          <h4 id="p9">60 days of free returns</h4>
-          <a id="p13" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">signup for our newsletter</a>
-          <h4 id="p40">50% off your first order</h4>
-        </div>
-      </div>
-    </div>
-    </nav>
-    
+  {/* //  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  //   <div class="container-fluid">
+  //     <a class="navbar-brand" href="#"></a>
+  //     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  //       <span class="navbar-toggler-icon"></span>
+  //     </button>
+  //     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  //       <div class="navbar-nav">
+  //         <a class="nav-link active" aria-current="page" href="#"></a>
+  //         <a id="p11" class="nav-link" href="#">  Download the app      </a>
+  //         <h4 id="p8">      Get an exclusive $5 off code </h4>
+  //         <a id="p12" class="nav-link" href="#">Return when you are ready</a>
+  //         <br/>
+  //         <h4 id="p9">60 days of free returns</h4>
+  //         <a id="p13" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">signup for our newsletter</a>
+  //         <h4 id="p40">50% off your first order</h4>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   </nav>  */}
+     
     </>
   )
 }
